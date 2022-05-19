@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login with Correct Username and Password",
+        "description": "",
+        "id": "validating-atactin-hotel-application-task;login-with-correct-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9967556700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User login on the url of \"https://adactinhotelapp.com/\" on chrome browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://adactinhotelapp.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "AtactinScenario.user_login_on_the_url_of_on_chrome_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246259600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enters the username as \"sahubarsathik\" and password as \"W76W53\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sahubarsathik\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"W76W53\"",
+                  "offset": 60
+                }
+              ],
+              "location": "AtactinScenario.user_Enters_the_username_as_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1149154500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Click the Login Button",
+            "match": {
+              "location": "AtactinScenario.user_Click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 894727700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Verify that is him or not",
+            "match": {
+              "location": "AtactinScenario.user_Verify_that_is_him_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@reg"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Atactin Hotel application Task",
+    "description": "",
+    "id": "validating-atactin-hotel-application-task",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/AtactinScenario.feature",
+    "tags": []
+  }
+]

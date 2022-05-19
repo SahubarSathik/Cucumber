@@ -1,0 +1,232 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 54,
+        "name": "Login positive, Generate Id Delete by Searching",
+        "description": "",
+        "id": "validating-atactin-hotel-application-task;login-positive--generate-id-delete-by-searching;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9951124600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User login on the url of \"https://adactinhotelapp.com/\" on chrome browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://adactinhotelapp.com/\"",
+                  "offset": 25
+                }
+              ],
+              "location": "AtactinScenario.user_login_on_the_url_of_on_chrome_browser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 268549500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User Enters the username as \"sahubarsathik\" and password as \"W76W53\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sahubarsathik\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"W76W53\"",
+                  "offset": 60
+                }
+              ],
+              "location": "AtactinScenario.user_Enters_the_username_as_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1300262900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User Click the Login Button",
+            "match": {
+              "location": "AtactinScenario.user_Click_the_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 841953600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User Enters the Following Credentials as \"Sydney\"and\"Hotel Creek\" \"Standard\"and \"2 - Two\"and \"12/05/2022\" and \"13/05/2022\" and \"2 - Two\" and \"0 - None\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sydney\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 52
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"12/05/2022\"",
+                  "offset": 93
+                },
+                {
+                  "val": "\"13/05/2022\"",
+                  "offset": 110
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 127
+                },
+                {
+                  "val": "\"0 - None\"",
+                  "offset": 141
+                }
+              ],
+              "location": "AtactinScenario.user_Enters_the_Following_Credentials_as_and_and_and_and_and_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 808582400,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User Click the Search Button",
+            "match": {
+              "location": "AtactinScenario.user_Click_the_Search_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 905912400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User Select the Hotel and Click the Coutinue Button",
+            "match": {
+              "location": "AtactinScenario.user_Select_the_Hotel_and_Click_the_Coutinue_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 908488600,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User Enter thier Personal and Payment Details as\"sahubar\" and\"\u003claseName\u003e\" and\"Ramnad\" and\"1234567891234567\" and \"American Express\" and \"June\" and \"2022\" and\"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sahubar\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"\u003claseName\u003e\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"Ramnad\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"1234567891234567\"",
+                  "offset": 89
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 112
+                },
+                {
+                  "val": "\"June\"",
+                  "offset": 135
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 146
+                },
+                {
+                  "val": "\"123\"",
+                  "offset": 156
+                }
+              ],
+              "location": "AtactinScenario.user_Enter_thier_Personal_and_Payment_Details_as_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7951942900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User Get that Oder Number and Click on My Itinerary Button",
+            "match": {
+              "location": "AtactinScenario.user_Get_that_Oder_Number_and_Click_on_My_Itinerary_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 961677200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User Search the Order id and Click Go Button",
+            "match": {
+              "location": "AtactinScenario.user_Search_the_Order_id_and_Click_Go_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1033542800,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User Select that Particualar id Click Cancel Selected Button",
+            "match": {
+              "location": "AtactinScenario.user_Select_that_Particualar_id_Click_Cancel_Selected_Button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Atactin Hotel application Task",
+    "description": "",
+    "id": "validating-atactin-hotel-application-task",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/AtactinScenario.feature",
+    "tags": []
+  }
+]
