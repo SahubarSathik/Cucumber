@@ -1,4 +1,4 @@
-package stepDefinitions;
+package com.stepDefinitions;
 
 import java.util.List;
 import java.util.Map;
@@ -18,8 +18,8 @@ public class AtactinScenario extends BaseClass {
 
 	@Given("User login on the url of {string} on chrome browser")
 	public void user_login_on_the_url_of_on_chrome_browser(String string) {
-		// getDriver("chrome");
-		// launch(string);
+		 getDriver("chrome");
+		 launch(string);
 		implityWait(20);
 
 	}

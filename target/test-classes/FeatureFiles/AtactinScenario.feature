@@ -11,13 +11,13 @@ Scenario: Login with Correct Username and Password
 @E2E 
 Scenario: Login with Incorrect Password and Get the Message 
 	Given User login on the url of "https://adactinhotelapp.com/" on chrome browser 
-	When User Enters the username as"sahubarsathik" and Incorrect password as "12345" 
+	When User Enters the username as"sahubarsathik" and Incorrect password as "BQ20XV" 
 	And User Click the Login Button 
 	Then User Verify that is him or not and Get the Error Message 
 @reg1 
 Scenario Outline: Login with Positive and Enter Wrong CheckIn and CheckOut Date 
 	Given User login on the url of "https://adactinhotelapp.com/" on chrome browser 
-	When User Enters the username as "sahubarsathik" and password as "W76W53" 
+	When User Enters the username as "sahubarsathik" and password as "BQ20XV" 
 	And User Click the Login Button 
 	And User Enters the Following Credentials as "<Location>"and"<Hotels>" "<Room Type>"and "<Number of Rooms>"and "<Check In Date>" and "<Check Out Date>" and "<Adults per Room>" and "<Children per Room>" 
 	Then User Click the Search Button 
@@ -29,7 +29,7 @@ Scenario Outline: Login with Positive and Enter Wrong CheckIn and CheckOut Date
 		@sanity 
 		Scenario Outline: Positive Login and Fillup Mandadatory Only 
 			Given User login on the url of "https://adactinhotelapp.com/" on chrome browser 
-			When User Enters the username as "sahubarsathik" and password as "W76W53" 
+			When User Enters the username as "sahubarsathik" and password as "BQ20XV" 
 			And User Click the Login Button 
 			And User Enters the Following Credentials as "<Location>" and "<Room Type>"and "<Number of Rooms>"and "<Check In Date>" and "<Check Out Date>" and "<Adults per Room>" 
 			Then User Click the Search Button 
@@ -41,7 +41,7 @@ Scenario Outline: Login with Positive and Enter Wrong CheckIn and CheckOut Date
 				@smoke 
 				Scenario Outline: Login positive, Generate Id Delete by Searching 
 					Given User login on the url of "https://adactinhotelapp.com/" on chrome browser 
-					When User Enters the username as "sahubarsathik" and password as "W76W53" 
+					When User Enters the username as "sahubarsathik" and password as "BQ20XV" 
 					And User Click the Login Button 
 					And User Enters the Following Credentials as "<Location>"and"<Hotels>" "<Room Type>"and "<Number of Rooms>"and "<Check In Date>" and "<Check Out Date>" and "<Adults per Room>" and "<Children per Room>" 
 					Then User Click the Search Button 
@@ -59,7 +59,7 @@ Scenario Outline: Login with Positive and Enter Wrong CheckIn and CheckOut Date
 						@smoke1
 						Scenario: User Get the all Booked history Order Number 
 							Given User login on the url of "https://adactinhotelapp.com/" on chrome browser 
-							When User Enters the username as "sahubarsathik" and password as "W76W53" 
+							When User Enters the username as "sahubarsathik" and password as "BQ20XV" 
 							And User Click the Login Button 
 							And User Click the Booked Itinerary and get the All OderNumber
 							

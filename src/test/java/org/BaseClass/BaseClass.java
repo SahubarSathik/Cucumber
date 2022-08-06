@@ -155,7 +155,6 @@ public class BaseClass {
 	public static void doubleClk(WebElement refName) {
 		act = new Actions(driver);
 		act.doubleClick(refName).perform();
-
 	}
 
 	public static void dgAndDp(WebElement refName) {
@@ -166,7 +165,6 @@ public class BaseClass {
 
 	public static void robotClass(int KeyEvent, int size) throws AWTException {
 		r = new Robot();
-
 		for (int i = 0; i < size; i++) {
 
 			r.keyPress(KeyEvent);
@@ -181,10 +179,10 @@ public class BaseClass {
 		r.keyRelease(KeyEvent);
 	}
 
-	public static void PressKey(int KeyEvent) throws AWTException {
-		r = new Robot();
+	public static void PressKey(int KeyEvent ) throws AWTException {	
+		Robot r = new Robot();
 		r.keyPress(KeyEvent);
-		r.keyPress(KeyEvent);
+		r.keyRelease(KeyEvent);
 	}
 
 	public static void ReleaseKey(int KeyEvent) throws AWTException {
